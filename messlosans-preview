@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MessloSans Regular Webfont Preview</title>
+  <style>
+    @font-face {
+      font-family: 'MessloSans';
+      src: url('MessloSans/WOFF2/MessloSans-Regular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+    .preview {
+      margin-top: 1em;
+      padding: 1em;
+      border: 1px solid #ddd;
+      min-height: 2em;
+      font-family: 'MessloSans', monospace, sans-serif;
+      font-size: 2em;
+      background: #fafafa;
+    }
+    textarea {
+      width: 100%;
+      height: 4em;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>MessloSans Regular Font Preview</h1>
+  <label for="inputText">Type your text here:</label>
+  <textarea id="inputText" placeholder="Type something..."></textarea>
+  <div class="preview" id="previewText"></div>
+
+  <script>
+    const textarea = document.getElementById('inputText');
+    const preview = document.getElementById('previewText');
+    textarea.addEventListener('input', function() {
+      preview.textContent = textarea.value;
+    });
+  </script>
+</body>
+</html>
