@@ -1,0 +1,486 @@
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Thin.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedThin.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedThin.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ThinItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedThinItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedThinItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtraLight.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedExtraLight.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedExtraLight.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtraLightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedExtraLightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedExtraLightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Light.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedLight.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedLight.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-LightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedLightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedLightItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Regular.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Extended.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Condensed.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Condensed.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-Italic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Medium.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedMedium.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedMedium.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-MediumItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedMediumItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedMediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedMediumItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedMediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-SemiBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedSemiBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedSemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedSemiBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedSemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-SemiBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedSemiBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedSemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedSemiBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedSemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Bold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-BoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtraBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedExtraBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedExtraBold.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtraBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedExtraBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedExtraBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-Heavy.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedHeavy.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedHeavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedHeavy.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedHeavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-HeavyItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-HeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-ExtendedHeavyItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-ExtendedHeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Messlo Sans Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/MessloSans-CondensedHeavyItalic.woff2') format('woff2'), url('TTF-Unhinted/MessloSans-CondensedHeavyItalic.ttf') format('truetype');
+}
